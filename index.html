@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
+	<title>Easy Shopping Mall</title>
+</head>
+
+<body>
+	<nav>
+		<div class="heading">Shopping website</div>
+		<span class="sideMenuButton"
+			onclick="openNavbar()">
+			☰
+		</span>
+
+		<div class="navbar">
+			<ul>
+				<li><a href="#Home">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Sign Up</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Side navigation bar for
+		responsive website -->
+	<div class="sideNavigationBar"
+		id="sideNavigationBar">
+		<a href="#" class="closeButton"
+			onclick="closeNavbar()">
+			
+		</a>
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Sign Up</a>
+	</div>
+
+	<!-- Content -->
+	<div class="line" id="Home">
+		<div class="side1">
+			<center><h1>Easy Shopping Mall</h1></center><br><br>
+			<center><button>
+				<a href=
+					"https://www.geeksforgeeks.org/">
+					Explore More
+				</a>
+			</button>
+		</center>
+		</div>
+		<div class="side2">
+			<img src=
+"images.jpg"
+				width="500">
+		</div>
+	</div>
+
+	<section class="about" id="My Projects">
+		<div class="content">
+			<div class="title">
+				<center><span>Categories</span></center>
+			</div>
+			<div class="boxes">
+				<div class="box">
+					<div class="topic">
+						<a href="" target="_blank">
+							<b>ELECTRONICS</b><br><br>
+						</a>
+					</div>
+					<p>
+						<img src="electronics.jpg">
+					</p>
+				</div>
+				<div class="box">
+
+					<div class="topic">
+						<a href="" target="_blank">
+							<b>CLOTHING</b><br><br> 
+						</a>
+					</div>
+					<p>
+						<img src="clothing.jpg">
+					</p>
+				</div>
+
+				<div class="box">
+					<div class="topic">
+						<a href="" target="_blank">
+							<b>KIDS</b><br><br>
+						</a>
+					</div>
+					<p>
+						<img src="kids.jpg" style="height: 100%; width: 100%;">
+					</p>
+				</div>
+
+				<div class="box">
+					<div class="topic">
+						<a href="" target="_blank">
+							<b>OTHER</b><br><br>
+						</a>
+					</div>
+					<p>
+						<img src="acc.jpg" style="height: 100%; width: 100%;">
+					</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact" id="contact">
+		<div class="content">
+			<div class="title"><span>Sign Up</span></div>
+			<div class="contactMenu">
+				<div class="input1">
+					<div class="label1">Your Name</div>
+					<div class="input2">
+						<input type="text"
+							placeholder="Enter your Name here">
+					</div>
+					<div class="label1">
+						<label>Your Email</label>
+					</div>
+					<div class="input2">
+						<input type="text"
+							placeholder="Enter your Email here">
+					</div>
+					<div class="label1">
+						<label>Your Password</label>
+					</div>
+					<div class="input2">
+						<input type="text"
+							placeholder="Enter your Password here">
+					</div>
+					<div class="button">
+						<button>Sign Up</button>
+					</div>
+				</div>
+				<div class="input3">
+					<div class="rightside1">
+						<div class="title1">
+							<span>
+								Contact Us
+							</span>
+						</div>
+						<div class="content1">
+							A-143, 9th Floor, Sovereign
+							Corporate Tower, Sector-136,
+							Noida, Uttar Pradesh - 201305
+						</div>
+						<div class="title1">
+							<span>More Information</span>
+						</div>
+						<div class="content1">
+							Easy Shopping Mall is an online platform for shopping online
+							products, such as electronics, mobile phones, clothing mens wear,
+							women's wear. Special Kids category to shop kids clothes, kids sport
+							games etc. Shopping online is a easy and safe way to purchase products online.
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Footer section -->
+	<footer>
+		<div class="footer">
+			<span>
+				Created By
+					<i>Easy Shopping Mall</i>
+				</a>
+			</span>
+		</div>
+	</footer>
+	<script src="index.js"></script>
+</body>
+
+</html>
